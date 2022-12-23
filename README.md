@@ -15,7 +15,8 @@ $ sh -c "$(curl -fsSL https://raw.githubusercontent.com/athlonreg/archey-osx/mas
 
 ## Installation/安装
 ```
-$ cd && git clone https://github.com/athlonreg/archey-osx 
+$ cd && git clone https://github.com/athlonreg/archey-osx (这是athlonreg版本)
+$ cd && git clone https://github.com/moskiller/archey-osx (这是我修改过的版本，支持MacOS Ventura)
 $ sudo mv archey-osx/ /usr/local/ 
 $ sudo ln -s /usr/local/archey-osx/bin/archey /usr/local/bin/archey #中文版
 $ sudo ln -s /usr/local/archey-osx/bin/archey-en /usr/local/bin/archey-en #英文版
